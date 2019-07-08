@@ -14,11 +14,11 @@ fun User.toUserView() : UserView {
         else "Последний раз был ${lastVisit?.humanizeDiff()}"
 
     return UserView(
-        id,
+        id = id,
         fullName = "$firstName $lastName",
         avatar = avatar,
-        nickName = nickname ,
-        initials = initials ,
+        nickName = nickname,
+        initials = initials,
         status = status)
 }
 
