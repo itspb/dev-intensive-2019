@@ -20,8 +20,6 @@ data class User (
         avatar = null
     )
 
-    //constructor(id: String) : this (id, "John", "Doe $id")
-
     class Builder(
         var id: String = "-1",
         var firstName: String? = null,
@@ -50,9 +48,5 @@ data class User (
             val (firstName, lastName) = Utils.parseFullName(fullName)
             return User(id = "$lastId", firstName = firstName, lastName = lastName)
         }
-        fun incrementAndGetLastId(): String {
-            lastId++
-            return lastId.toString()
-        }
-}
+    }
 }
