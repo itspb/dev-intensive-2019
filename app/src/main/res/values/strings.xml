@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dev-intensive</string>
+
+    <plurals name="minutes">
+        <item quantity="zero">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="zero">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+
+    <plurals name="days">
+        <item quantity="zero">%d дней</item>
+        <item quantity="one">%d день</item>
+        <item quantity="two">%d дня</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+</resources>
